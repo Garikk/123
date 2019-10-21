@@ -183,3 +183,4 @@ echo # SageMath parsed files >> .gitignore
 echo *.sage.py >> .gitignore
 echo echo  >> .gitignore
 echo # Environments >> .gitignore
+echo .env >> .gitignore
