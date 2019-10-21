@@ -91,3 +91,36 @@ echo =======================
 echo.
 echo - Добавляем в папку файл .gitignore и записываем/перезаписываем в него игнорируемые файлы
 echo (В данном случае файл оптимизирован для Python и редакторов от компании JetBrains)
+
+REM Здесь мои исключения
+echo # You can use site gitignore.io for create .gitignore > .gitignore
+echo # https://www.gitignore.io >> .gitignore
+echo Your ignored files >> .gitignore
+echo .idea/ >> .gitignore
+REM .gitignore >> .gitignore
+REM Здесь рекомендации для Python от GitHub
+echo # Byte-compiled / optimized / DLL files >> .gitignore
+echo __pycache__/ >> .gitignore
+echo *.py[cod] >> .gitignore
+echo *$py.class >> .gitignore
+echo. >> .gitignore
+echo # C extensions >> .gitignore
+echo *.so >> .gitignore
+echo. >> .gitignore
+echo # Distribution / packaging >> .gitignore
+echo .Python >> .gitignore
+echo build/ >> .gitignore
+echo develop-eggs/ >> .gitignore
+echo dist/ >> .gitignore
+echo downloads/ >> .gitignore
+echo eggs/ >> .gitignore
+echo .eggs/ >> .gitignore
+echo lib/ >> .gitignore
+echo lib64/ >> .gitignore
+echo parts/ >> .gitignore
+echo sdist/ >> .gitignore
+echo var/ >> .gitignore
+echo wheels/ >> .gitignore
+echo *.egg-info/ >> .gitignore
+echo .installed.cfg >> .gitignore
+echo *.egg >> .gitignore
