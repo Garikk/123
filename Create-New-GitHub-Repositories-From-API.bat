@@ -191,15 +191,3 @@ echo ENV/ >> .gitignore
 echo env.bak/ >> .gitignore
 echo venv.bak/ >> .gitignore
 echo echo  >> .gitignore
-echo # Spyder project settings >> .gitignore
-echo .spyderproject >> .gitignore
-echo .spyproject >> .gitignore
-echo. >> .gitignore
-echo # Rope project settings >> .gitignore
-echo .ropeproject >> .gitignore
-echo. >> .gitignore
-echo # mkdocs documentation >> .gitignore
-echo /site >> .gitignore
-echo. >> .gitignore
-echo # mypy >> .gitignore
-echo .mypy_cache/ >> .gitignore
