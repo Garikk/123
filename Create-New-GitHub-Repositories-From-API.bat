@@ -186,4 +186,3 @@ echo # Environments >> .gitignore
 echo .env >> .gitignore
 echo .venv >> .gitignore
 echo env/ >> .gitignore
-echo venv/ >> .gitignore
