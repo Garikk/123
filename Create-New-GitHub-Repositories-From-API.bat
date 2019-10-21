@@ -124,3 +124,82 @@ echo wheels/ >> .gitignore
 echo *.egg-info/ >> .gitignore
 echo .installed.cfg >> .gitignore
 echo *.egg >> .gitignore
+echo MANIFEST >> .gitignore
+echo. >> .gitignore
+echo # PyInstaller >> .gitignore
+echo #  Usually these files are written by a python script from a template >> .gitignore
+echo #  before PyInstaller builds the exe, so as to inject date/other infos into it. >> .gitignore
+echo *.manifest >> .gitignore
+echo *.spec >> .gitignore
+echo. >> .gitignore
+echo # Installer logs >> .gitignore
+echo pip-log.txt >> .gitignore
+echo pip-delete-this-directory.txt >> .gitignore
+echo. >> .gitignore
+echo # Unit test / coverage reports >> .gitignore
+echo htmlcov/ >> .gitignore
+echo .tox/ >> .gitignore
+echo .coverage >> .gitignore
+echo .coverage.* >> .gitignore
+echo .cache >> .gitignore
+echo nosetests.xml >> .gitignore
+echo coverage.xml >> .gitignore
+echo *.cover >> .gitignore
+echo .hypothesis/ >> .gitignore
+echo .pytest_cache/ >> .gitignore
+echo. >> .gitignore
+echo # Translations >> .gitignore
+echo *.mo >> .gitignore
+echo *.pot >> .gitignore
+echo. >> .gitignore
+echo # Django stuff: >> .gitignore
+echo *.log >> .gitignore
+echo local_settings.py >> .gitignore
+echo db.sqlite3 >> .gitignore
+echo. >> .gitignore
+echo # Flask stuff: >> .gitignore
+echo instance/ >> .gitignore
+echo .webassets-cache >> .gitignore
+echo. >> .gitignore
+echo # Scrapy stuff: >> .gitignore
+echo .scrapy >> .gitignore
+echo. >> .gitignore
+echo # Sphinx documentation >> .gitignore
+echo docs/_build/ >> .gitignore
+echo. >> .gitignore
+echo # PyBuilder >> .gitignore
+echo target/ >> .gitignore
+echo. >> .gitignore
+echo # Jupyter Notebook >> .gitignore
+echo .ipynb_checkpoints >> .gitignore
+echo. >> .gitignore
+echo # pyenv >> .gitignore
+echo .python-version >> .gitignore
+echo. >> .gitignore
+echo # celery beat schedule file >> .gitignore
+echo celerybeat-schedule >> .gitignore
+echo. >> .gitignore
+echo # SageMath parsed files >> .gitignore
+echo *.sage.py >> .gitignore
+echo echo  >> .gitignore
+echo # Environments >> .gitignore
+echo .env >> .gitignore
+echo .venv >> .gitignore
+echo env/ >> .gitignore
+echo venv/ >> .gitignore
+echo ENV/ >> .gitignore
+echo env.bak/ >> .gitignore
+echo venv.bak/ >> .gitignore
+echo echo  >> .gitignore
+echo # Spyder project settings >> .gitignore
+echo .spyderproject >> .gitignore
+echo .spyproject >> .gitignore
+echo. >> .gitignore
+echo # Rope project settings >> .gitignore
+echo .ropeproject >> .gitignore
+echo. >> .gitignore
+echo # mkdocs documentation >> .gitignore
+echo /site >> .gitignore
+echo. >> .gitignore
+echo # mypy >> .gitignore
+echo .mypy_cache/ >> .gitignore
