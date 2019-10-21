@@ -178,16 +178,3 @@ echo .python-version >> .gitignore
 echo. >> .gitignore
 echo # celery beat schedule file >> .gitignore
 echo celerybeat-schedule >> .gitignore
-echo. >> .gitignore
-echo # SageMath parsed files >> .gitignore
-echo *.sage.py >> .gitignore
-echo echo  >> .gitignore
-echo # Environments >> .gitignore
-echo .env >> .gitignore
-echo .venv >> .gitignore
-echo env/ >> .gitignore
-echo venv/ >> .gitignore
-echo ENV/ >> .gitignore
-echo env.bak/ >> .gitignore
-echo venv.bak/ >> .gitignore
-echo echo  >> .gitignore
