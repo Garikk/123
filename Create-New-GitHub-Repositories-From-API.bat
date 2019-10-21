@@ -182,8 +182,3 @@ echo. >> .gitignore
 echo # SageMath parsed files >> .gitignore
 echo *.sage.py >> .gitignore
 echo echo  >> .gitignore
-echo # Environments >> .gitignore
-echo .env >> .gitignore
-echo .venv >> .gitignore
-echo env/ >> .gitignore
-echo venv/ >> .gitignore
